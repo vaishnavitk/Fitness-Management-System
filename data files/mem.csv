@@ -1,0 +1,4 @@
+membershipid,membershiptype,isTrainer,isNutritionExpert,isFoodService
+M101,silver,yes,no,no
+M102,gold,yes,yes,no
+M103,platinum,yes,yes,yes

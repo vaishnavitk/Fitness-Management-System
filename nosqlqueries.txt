@@ -1,0 +1,60 @@
+
+db.fitnessmanagementsystem.drop();
+var jDate1 = new Date(2019, 10, 16);
+var eDate1 = new Date(2020, 11, 15);
+
+var jDate2 = new Date(2020, 12, 4);
+var eDate2 = new Date(2021, 1, 23);
+
+var jDate3 = new Date(2020, 03, 29);
+var eDate3 = new Date(2020, 11, 28);
+
+db.createCollection("fitnessmanagementsystem");
+db.fitnessmanagementsystem.insertMany([{"managementid": "FMS01", "username":"AmV", "membershipid": "M101","expertid":"","gymid":"G101010101","joiningdate":jDate1,"expirydate":eDate1},{"managementid": "FMS02", "username":"RyaM","membershipid":"M102","expertid":"EriA","gymid":"G101010105","joiningdate":jDate2,"expirydate":eDate2},
+{"managementid": "FMS03", "username":"KatherinB", "membershipid": "M103","expertid":"BoriM","gymid":"G101010106","joiningdate":jDate3,"expirydate":eDate3}]);
+
+
+db.fitnessmanagementsystem.find();
+var jDate4=new Date(2020, 1, 1);
+
+db.fitnessmanagementsystem.find( { "joiningdate": { $gte: jDate4 } } )
+
+db.membership.drop();
+db.createCollection("membership");
+db.membership.insertMany([{"membershipid":"M101","membershiptype":"silver","isTrainer":"yes","isNutritionExpert":"no","isFoodService":"no"},{"membershipid":"M102","membershiptype":"gold","isTrainer":"yes","isNutritionExpert":"yes","isFoodService":"no"},
+{"membershipid":"M103","membershiptype":"platinum","isTrainer":"yes","isNutritionExpert":"yes","isFoodService":"yes"}])
+
+
+db.users.drop();
+db.createCollection("users");
+db.users.insertMany([{"username":"AmV", "firstname": "Amy","lastname":"Vance","email":"amy.vance@gmail.com","phonenumber":5555960220,"streetname":"Park Street","unitno":1,"city":"boston","state":"massachusetts","zipcode":533104},{"username":"GracC", "firstname": "Grace","lastname":"Clark","email":"grace.clark@gmail.com","phonenumber":7876946923,"streetname":"5th Street","unitno":3,"city":"quincy","state":"massachusetts","zipcode":533105},{"username":"TheresD", "firstname": "Theresa","lastname":"Davidson","email":"theresa.davidson@gmail.com","phonenumber":7737772571,"streetname":"Academy Street","unitno":4,"city":"hampshire","state":"new hampshire","zipcode":533106}]);
+
+db.users.find();
+db.users.aggregate([{$group : {_id : "$state", count : {$sum :1}}}])
+db.users.update({"username":"GracC"},{$set:{"phonenumber":7142880350}});
+db.users.find();
+
+
+db.fitnessmanagementsystem.aggregate([
+   {
+     $lookup:
+       {
+         from: "membership",
+         localField: "membershipid",
+         foreignField: "membershipid",
+         as: "information"
+       }
+  }
+])
+
+	
+db.nutritionexpert.drop();
+db.createCollection("nutritionexpert");
+db.nutritionexpert.insertMany([{"expertid":"joannM", "expertfirstname": "Joanne","expertlastname":"Martin","firm":"NatureBox","phonenumber":3923566711,"email":"joanne.martin@soylent.com","workexperience_years":4},{"expertid":"EriA", "expertfirstname": "Eric","expertlastname":"Alsop","firm":"WildEarth","phonenumber":7654367645,"email":"eric.alsop@wildearth.com","workexperience_years":3},{"expertid":"BoriM", "expertfirstname": "Boris","expertlastname":"McDonald","firm":"NatureBox","phonenumber":7857232767,"email":"boris.mcdonald@naturebox.com","workexperience_years":3},{"expertid":"RicharC", "expertfirstname": "Richard","expertlastname":"Carr","firm":"NatureBox","phonenumber":8338450050,"email":"richard.carr@insidetracker.com","workexperience_years":4}]);
+db.nutritionexpert.find();
+
+db.nutritionexpert.aggregate([{$group : {_id : "$firm", avg_workexp : {$avg : "$workexperience_years"}}},{$sort: {avg_workexp: -1}}])
+db.nutritionexpert.remove({'firm':'WildEarth'});
+db.nutritionexpert.find();
+
+

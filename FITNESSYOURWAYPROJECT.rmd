@@ -1,0 +1,266 @@
+---
+title: "FITNESSYOURWAYPROJECT"
+author: "Vaishnavi Telukuntla"
+date: "4/19/2020"
+output: word_document
+---
+```{r}
+install.packages("RMySQL")
+library(RMySQL)
+#Connecting R with Mysql
+mydb <- dbConnect(MySQL(), user = 'fitnessuser', password = 'vaishkal@11',
+                  dbname = 'fitness', host = 'localhost')
+
+```
+
+```{r}
+#Listing all the tables
+dbListTables(mydb)
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table foodservice 
+data <- paste0("INSERT INTO ","foodservice"," values ");
+for(index in c(1:dim(foodservice)[1])){
+  tmp <- paste0("('",foodservice[index,1],"', '",foodservice[index,2],"', ",foodservice[index,3],")");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table users 
+data <- paste0("INSERT INTO ","users"," values ");
+for(index in c(1:dim(users)[1])){
+  tmp <- paste0("('",users[index,1],"', '",users[index,2],"','",users[index,3],"','",users[index,4],"','",users[index,5],"','",users[index,6],"','",users[index,7],"','",users[index,8],"','",users[index,9],"','",users[index,10],"',)");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table trainer 
+data <- paste0("INSERT INTO ","trainer"," values ");
+for(index in c(1:dim(trainer)[1])){
+  tmp <- paste0("('",trainer[index,1],"', '",trainer[index,2],"','",trainer[index,3],"','",trainer[index,4],"','",trainer[index,5],"',)");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table gym 
+data <- paste0("INSERT INTO ","gym"," values ");
+for(index in c(1:dim(gym)[1])){
+  tmp <- paste0("('",gym[index,1],"', '",gym[index,2],"',",gym[index,3],",'",gym[index,4],"','",gym[index,5],"','",gym[index,6],"','",gym[index,7],"','",gym[index,8],"','",gym[index,9],"',)");
+  data <- paste0(data,tmp,",");
+
+}
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+
+```{r}
+#Generating insert query by loading a csv file of records for table workoutroutine 
+data <- paste0("INSERT INTO ","workoutroutine"," values ");
+for(index in c(1:dim(workoutroutine)[1])){
+  tmp <- paste0("('",workoutroutine[index,1],"', '",workoutroutine[index,2],"','",workoutroutine[index,3],"','",workoutroutine[index,4],"',",workoutroutine[index,5],",)");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table membership 
+data <- paste0("INSERT INTO ","membership"," values ");
+for(index in c(1:dim(membership)[1])){
+  tmp <- paste0("('",membership[index,1],"', '",membership[index,2],"','",membership[index,3],"','",membership[index,4],"',",membership[index,5],",)");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table nutritionexpert 
+data <- paste0("INSERT INTO ","nutritionexpert"," values ");
+for(index in c(1:dim(nutritionexpert)[1])){
+  tmp <- paste0("('",nutritionexpert[index,1],"', '",nutritionexpert[index,2],"','",nutritionexpert[index,3],"','",nutritionexpert[index,4],"',",nutritionexpert[index,5],",'",nutritionexpert[index,6],"','",nutritionexpert[index,7],"','",nutritionexpert[index,8],"','",nutritionexpert[index,9],"',)");
+  data <- paste0(data,tmp,",");
+
+}
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table orders 
+data <- paste0("INSERT INTO ","orders"," values ");
+for(index in c(1:dim(orders)[1])){
+  tmp <- paste0("('",orders[index,1],"', '",orders[index,2],"',)");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table getsorder 
+data <- paste0("INSERT INTO ","getsorder"," values ");
+for(index in c(1:dim(getsorder)[1])){
+  tmp <- paste0("('",getsorder[index,1],"', '",getsorder[index,2],"',)");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table restaurant 
+data <- paste0("INSERT INTO ","restaurant"," values ");
+for(index in c(1:dim(restaurant)[1])){
+  tmp <- paste0("('",restaurant[index,1],"', '",restaurant[index,2],"','",restaurant[index,3],"',",restaurant[index,4],",'",restaurant[index,5],"','",restaurant[index,6],"','",restaurant[index,7],"','",restaurant[index,8],"','",restaurant[index,9],"',)");
+  data <- paste0(data,tmp,",");
+
+}
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table diet 
+
+data <- paste0("INSERT INTO ","diet"," values ");
+for(index in c(1:dim(diet)[1])){
+  tmp <- paste0("('",diet[index,1],"', '",diet[index,2],"', '",diet[index,3],"','",diet[index,4],"','",diet[index,5],"')");
+  data <- paste0(data,tmp,",");
+}
+
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#Generating insert query by loading a csv file of records for table fitnessmanagementsystem 
+
+data <- paste0("INSERT INTO ","fitnessmanagementsystem"," values ");
+for(index in c(1:dim(fms)[1])){
+  if(fms[index,4]!="NULL"){
+    tmp <- paste0("('",fms[index,1],"', '",fms[index,2],"', '",fms[index,3],"','",fms[index,4],"','",fms[index,5],"','",fms[index,6],"','",fms[index,7],"')");
+    data <- paste0(data,tmp,",");
+  }
+  else{
+    tmp <- paste0("('",fms[index,1],"', '",fms[index,2],"', '",fms[index,3],"',",fms[index,4],",'",fms[index,5],"','",fms[index,6],"','",fms[index,7],"')");
+    data <- paste0(data,tmp,",");
+    
+  }
+}
+data<-substring(data,1,nchar(data)-1)
+data<-paste0(data,";")
+data
+
+```
+
+```{r}
+#users,their membershiptype,joining date and expiry date
+userinfo <- dbSendQuery(mydb, "select u.firstname,u.lastname,m.membershiptype,fms.joiningdate,fms.expirydate 
+                  from fitnessmanagementsystem fms ,membership m,users u where fms.membershipid = m.membershipid and u.username=fms.username")
+
+dbFetch(userinfo)
+
+```
+
+```{r}
+#Total count of food orders for each user
+#RIGHT OUTER JOIN
+users_orders <- dbSendQuery(mydb, "select u.firstname,u.lastname,count(o.orderid) as total_orders 
+                  from orders o right outer join users u on u.username= o.username group by u.username order by total_orders desc")
+dbFetch(users_orders)
+
+
+```
+
+```{r}
+#CORRELATED SUBQUERY
+#Nutrition experts having work experience more than average work experience of all the nutrition experts
+expert_exp <- dbSendQuery(mydb, "SELECT n.expertfirstname,n.expertlastname,n.firm,n.workexperience_years
+ FROM nutritionexpert n WHERE n.workexperience_years > (SELECT AVG(workexperience_years) FROM nutritionexpert) order by n.workexperience_years desc")
+
+dbFetch(expert_exp)
+
+```
+
+```{r}
+#Nutrition experts and count of their customers 
+expert_users <- dbSendQuery(mydb, "select n.expertid,count(fms.username) as CUSTOMER_COUNT
+                  from fitnessmanagementsystem fms,nutritionexpert n where fms.expertid=n.expertid group by n.expertid order by CUSTOMER_COUNT desc")
+
+dbFetch(expert_users)
+
+```
+
+```{r}
+#NESTED QUERY
+#List of users with gold membership
+gold_users<-dbSendQuery(mydb, "select u.firstname,u.lastname from users u where u.username in (select fms.username from fitnessmanagementsystem fms where fms.membershipid in (select m.membershipid from membership m where m.membershiptype='gold')) 
+")
+dbFetch(gold_users)
+
+```
+
+
+```{r}
+
+#Users whose membership has been expired recently so that we can ask for renewing their membership
+ask_renewals <- dbSendQuery(mydb, "select u.firstname,u.lastname,fms.expirydate 
+                  from users u,fitnessmanagementsystem fms where u.username= fms.username and fms.expirydate<=CURDATE() and YEAR(fms.expirydate)=YEAR(CURDATE())")
+
+dbFetch(ask_renewals)
+
+```
+
+```{r}
+
+#Disconnecting R with mysql
+dbDisconnect(mydb)
+
+
+cons<-dbListConnections(MySQL())
+for (con in cons) dbDisconnect(con)
+
+
+```

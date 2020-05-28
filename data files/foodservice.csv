@@ -1,0 +1,800 @@
+orderid,fooditem,quantity
+O101,whole eggs,1
+O102,leafy greens,2
+O103,salmon,3
+O104,vegetable salad,4
+O105,beef,5
+O106,chicken breast,7
+O107,potatoes,6
+O108,beans,8
+O109,legumes,9
+O110,soups,1
+O111,cottage cheese,2
+O112,avocados,3
+O113,apple cider vinegar,4
+O114,green tea,5
+O115,nuts,7
+O116,whole grains,6
+O117,chilli pepper,8
+O118,grape fruit,9
+O119,chia seeds,1
+O120,yogurt,2
+O121,whole eggs,3
+O122,leafy greens,4
+O123,salmon,5
+O124,vegetable salad,7
+O125,beef,6
+O126,chicken breast,8
+O127,potatoes,9
+O128,beans,1
+O129,legumes,2
+O130,soups,3
+O131,cottage cheese,4
+O132,avocados,5
+O133,apple cider vinegar,7
+O134,green tea,6
+O135,nuts,8
+O136,whole grains,9
+O137,chilli pepper,1
+O138,grape fruit,2
+O139,chia seeds,3
+O140,yogurt,4
+O141,whole eggs,5
+O142,leafy greens,7
+O143,salmon,6
+O144,vegetable salad,8
+O145,beef,9
+O146,chicken breast,1
+O147,potatoes,2
+O148,beans,3
+O149,legumes,4
+O150,soups,5
+O151,cottage cheese,7
+O152,avocados,6
+O153,apple cider vinegar,8
+O154,green tea,9
+O155,nuts,1
+O156,whole grains,2
+O157,chilli pepper,3
+O158,grape fruit,4
+O159,chia seeds,5
+O160,yogurt,7
+O161,whole eggs,6
+O162,leafy greens,8
+O163,salmon,9
+O164,vegetable salad,1
+O165,beef,2
+O166,chicken breast,3
+O167,potatoes,4
+O168,beans,5
+O169,legumes,7
+O170,soups,6
+O171,cottage cheese,8
+O172,avocados,9
+O173,apple cider vinegar,1
+O174,green tea,2
+O175,nuts,3
+O176,whole grains,4
+O177,chilli pepper,5
+O178,grape fruit,7
+O179,chia seeds,6
+O180,yogurt,8
+O181,whole eggs,9
+O182,leafy greens,1
+O183,salmon,2
+O184,vegetable salad,3
+O185,beef,4
+O186,chicken breast,5
+O187,potatoes,7
+O188,beans,6
+O189,legumes,8
+O190,whole eggs,9
+O191,leafy greens,1
+O192,salmon,2
+O193,vegetable salad,3
+O194,beef,4
+O195,chicken breast,5
+O196,potatoes,7
+O197,beans,6
+O198,legumes,8
+O199,soups,9
+O200,cottage cheese,1
+O201,avocados,1
+O202,apple cider vinegar,2
+O203,green tea,3
+O204,nuts,4
+O205,whole grains,5
+O206,chilli pepper,7
+O207,grape fruit,6
+O208,chia seeds,8
+O209,yogurt,9
+O210,whole eggs,1
+O211,leafy greens,2
+O212,salmon,3
+O213,vegetable salad,4
+O214,beef,5
+O215,chicken breast,7
+O216,potatoes,6
+O217,beans,8
+O218,legumes,9
+O219,soups,1
+O220,cottage cheese,2
+O221,avocados,3
+O222,apple cider vinegar,4
+O223,green tea,5
+O224,nuts,7
+O225,whole grains,6
+O226,chilli pepper,8
+O227,grape fruit,9
+O228,chia seeds,1
+O229,yogurt,2
+O230,whole eggs,3
+O231,leafy greens,4
+O232,salmon,5
+O233,vegetable salad,7
+O234,beef,6
+O235,chicken breast,8
+O236,potatoes,9
+O237,beans,1
+O238,legumes,2
+O239,soups,3
+O240,cottage cheese,4
+O241,avocados,5
+O242,apple cider vinegar,7
+O243,green tea,6
+O244,nuts,8
+O245,whole grains,9
+O246,chilli pepper,1
+O247,grape fruit,2
+O248,chia seeds,3
+O249,yogurt,4
+O250,whole eggs,5
+O251,leafy greens,7
+O252,salmon,6
+O253,vegetable salad,8
+O254,beef,9
+O255,chicken breast,1
+O256,potatoes,2
+O257,beans,3
+O258,legumes,4
+O259,soups,5
+O260,cottage cheese,7
+O261,avocados,6
+O262,apple cider vinegar,8
+O263,green tea,9
+O264,nuts,1
+O265,whole grains,2
+O266,chilli pepper,3
+O267,grape fruit,4
+O268,chia seeds,5
+O269,yogurt,7
+O270,whole eggs,6
+O271,leafy greens,8
+O272,salmon,9
+O273,vegetable salad,1
+O274,beef,2
+O275,chicken breast,3
+O276,potatoes,4
+O277,beans,5
+O278,legumes,7
+O279,whole eggs,6
+O280,leafy greens,8
+O281,salmon,9
+O282,vegetable salad,1
+O283,beef,2
+O284,chicken breast,3
+O285,potatoes,4
+O286,beans,5
+O287,legumes,7
+O288,soups,6
+O289,cottage cheese,8
+O290,avocados,9
+O291,apple cider vinegar,1
+O292,green tea,2
+O293,nuts,3
+O294,whole grains,4
+O295,chilli pepper,5
+O296,grape fruit,7
+O297,chia seeds,6
+O298,yogurt,8
+O299,whole eggs,9
+O300,leafy greens,1
+O301,salmon,1
+O302,vegetable salad,2
+O303,beef,3
+O304,chicken breast,4
+O305,potatoes,5
+O306,beans,7
+O307,legumes,6
+O308,soups,8
+O309,cottage cheese,9
+O310,avocados,1
+O311,apple cider vinegar,2
+O312,green tea,3
+O313,nuts,4
+O314,whole grains,5
+O315,chilli pepper,7
+O316,grape fruit,6
+O317,chia seeds,8
+O318,yogurt,9
+O319,whole eggs,1
+O320,leafy greens,2
+O321,salmon,3
+O322,vegetable salad,4
+O323,beef,5
+O324,chicken breast,7
+O325,potatoes,6
+O326,beans,8
+O327,legumes,9
+O328,soups,1
+O329,cottage cheese,2
+O330,avocados,3
+O331,apple cider vinegar,4
+O332,green tea,5
+O333,nuts,7
+O334,whole grains,6
+O335,chilli pepper,8
+O336,grape fruit,9
+O337,chia seeds,1
+O338,yogurt,2
+O339,whole eggs,3
+O340,leafy greens,4
+O341,salmon,5
+O342,vegetable salad,7
+O343,beef,6
+O344,chicken breast,8
+O345,potatoes,9
+O346,beans,1
+O347,legumes,2
+O348,soups,3
+O349,cottage cheese,4
+O350,avocados,5
+O351,apple cider vinegar,7
+O352,green tea,6
+O353,nuts,8
+O354,whole grains,9
+O355,chilli pepper,1
+O356,grape fruit,2
+O357,chia seeds,3
+O358,yogurt,4
+O359,whole eggs,5
+O360,leafy greens,7
+O361,salmon,6
+O362,vegetable salad,8
+O363,beef,9
+O364,chicken breast,1
+O365,potatoes,2
+O366,beans,3
+O367,legumes,4
+O368,whole eggs,5
+O369,leafy greens,7
+O370,salmon,6
+O371,vegetable salad,8
+O372,beef,9
+O373,chicken breast,1
+O374,potatoes,2
+O375,beans,3
+O376,legumes,4
+O377,soups,5
+O378,cottage cheese,7
+O379,avocados,6
+O380,apple cider vinegar,8
+O381,green tea,9
+O382,nuts,1
+O383,whole grains,2
+O384,chilli pepper,3
+O385,grape fruit,4
+O386,chia seeds,5
+O387,yogurt,7
+O388,whole eggs,6
+O389,leafy greens,8
+O390,salmon,9
+O391,vegetable salad,1
+O392,beef,2
+O393,chicken breast,3
+O394,potatoes,4
+O395,beans,5
+O396,legumes,7
+O397,soups,6
+O398,cottage cheese,8
+O399,avocados,9
+O400,apple cider vinegar,1
+O401,green tea,1
+O402,nuts,2
+O403,whole grains,3
+O404,chilli pepper,4
+O405,grape fruit,5
+O406,chia seeds,7
+O407,yogurt,6
+O408,whole eggs,8
+O409,leafy greens,9
+O410,salmon,1
+O411,vegetable salad,2
+O412,beef,3
+O413,chicken breast,4
+O414,potatoes,5
+O415,beans,7
+O416,legumes,6
+O417,soups,8
+O418,cottage cheese,9
+O419,avocados,1
+O420,apple cider vinegar,2
+O421,green tea,3
+O422,nuts,4
+O423,whole grains,5
+O424,chilli pepper,7
+O425,grape fruit,6
+O426,chia seeds,8
+O427,yogurt,9
+O428,whole eggs,1
+O429,leafy greens,2
+O430,salmon,3
+O431,vegetable salad,4
+O432,beef,5
+O433,chicken breast,7
+O434,potatoes,6
+O435,beans,8
+O436,legumes,9
+O437,soups,1
+O438,cottage cheese,2
+O439,avocados,3
+O440,apple cider vinegar,4
+O441,green tea,5
+O442,nuts,7
+O443,whole grains,6
+O444,chilli pepper,8
+O445,grape fruit,9
+O446,chia seeds,1
+O447,yogurt,2
+O448,whole eggs,3
+O449,leafy greens,4
+O450,salmon,5
+O451,vegetable salad,7
+O452,beef,6
+O453,chicken breast,8
+O454,potatoes,9
+O455,beans,1
+O456,legumes,2
+O457,whole eggs,3
+O458,leafy greens,4
+O459,salmon,5
+O460,vegetable salad,7
+O461,beef,6
+O462,chicken breast,8
+O463,potatoes,9
+O464,beans,1
+O465,legumes,2
+O466,soups,3
+O467,cottage cheese,4
+O468,avocados,5
+O469,apple cider vinegar,7
+O470,green tea,6
+O471,nuts,8
+O472,whole grains,9
+O473,chilli pepper,1
+O474,grape fruit,2
+O475,chia seeds,3
+O476,yogurt,4
+O477,whole eggs,5
+O478,leafy greens,7
+O479,salmon,6
+O480,vegetable salad,8
+O481,beef,9
+O482,chicken breast,1
+O483,potatoes,2
+O484,beans,3
+O485,legumes,4
+O486,soups,5
+O487,cottage cheese,7
+O488,avocados,6
+O489,apple cider vinegar,8
+O490,green tea,9
+O491,nuts,1
+O492,whole grains,2
+O493,chilli pepper,3
+O494,grape fruit,4
+O495,chia seeds,5
+O496,yogurt,7
+O497,whole eggs,6
+O498,leafy greens,8
+O499,salmon,9
+O500,vegetable salad,1
+O501,beef,1
+O502,chicken breast,2
+O503,potatoes,3
+O504,beans,4
+O505,legumes,5
+O506,soups,7
+O507,cottage cheese,6
+O508,avocados,8
+O509,apple cider vinegar,9
+O510,green tea,1
+O511,nuts,2
+O512,whole grains,3
+O513,chilli pepper,4
+O514,grape fruit,5
+O515,chia seeds,7
+O516,yogurt,6
+O517,whole eggs,8
+O518,leafy greens,9
+O519,salmon,1
+O520,vegetable salad,2
+O521,beef,3
+O522,chicken breast,4
+O523,potatoes,5
+O524,beans,7
+O525,legumes,6
+O526,soups,8
+O527,cottage cheese,9
+O528,avocados,1
+O529,apple cider vinegar,2
+O530,green tea,3
+O531,nuts,4
+O532,whole grains,5
+O533,chilli pepper,7
+O534,grape fruit,6
+O535,chia seeds,8
+O536,yogurt,9
+O537,whole eggs,1
+O538,leafy greens,2
+O539,salmon,3
+O540,vegetable salad,4
+O541,beef,5
+O542,chicken breast,7
+O543,potatoes,6
+O544,beans,8
+O545,legumes,9
+O546,whole eggs,1
+O547,leafy greens,2
+O548,salmon,3
+O549,vegetable salad,4
+O550,beef,5
+O551,chicken breast,7
+O552,potatoes,6
+O553,beans,8
+O554,legumes,9
+O555,soups,1
+O556,cottage cheese,2
+O557,avocados,3
+O558,apple cider vinegar,4
+O559,green tea,5
+O560,nuts,7
+O561,whole grains,6
+O562,chilli pepper,8
+O563,grape fruit,9
+O564,chia seeds,1
+O565,yogurt,2
+O566,whole eggs,3
+O567,leafy greens,4
+O568,salmon,5
+O569,vegetable salad,7
+O570,beef,6
+O571,chicken breast,8
+O572,potatoes,9
+O573,beans,1
+O574,legumes,2
+O575,soups,3
+O576,cottage cheese,4
+O577,avocados,5
+O578,apple cider vinegar,7
+O579,green tea,6
+O580,nuts,8
+O581,whole grains,9
+O582,chilli pepper,1
+O583,grape fruit,2
+O584,chia seeds,3
+O585,yogurt,4
+O586,whole eggs,5
+O587,leafy greens,7
+O588,salmon,6
+O589,vegetable salad,8
+O590,beef,9
+O591,chicken breast,1
+O592,potatoes,2
+O593,beans,3
+O594,legumes,4
+O595,soups,5
+O596,cottage cheese,7
+O597,avocados,6
+O598,apple cider vinegar,8
+O599,green tea,9
+O600,nuts,1
+O601,whole grains,1
+O602,chilli pepper,2
+O603,grape fruit,3
+O604,chia seeds,4
+O605,yogurt,5
+O606,whole eggs,7
+O607,leafy greens,6
+O608,salmon,8
+O609,vegetable salad,9
+O610,beef,1
+O611,chicken breast,2
+O612,potatoes,3
+O613,beans,4
+O614,legumes,5
+O615,soups,7
+O616,cottage cheese,6
+O617,avocados,8
+O618,apple cider vinegar,9
+O619,green tea,1
+O620,nuts,2
+O621,whole grains,3
+O622,chilli pepper,4
+O623,grape fruit,5
+O624,chia seeds,7
+O625,yogurt,6
+O626,whole eggs,8
+O627,leafy greens,9
+O628,salmon,1
+O629,vegetable salad,2
+O630,beef,3
+O631,chicken breast,4
+O632,potatoes,5
+O633,beans,7
+O634,legumes,6
+O635,whole eggs,8
+O636,leafy greens,9
+O637,salmon,1
+O638,vegetable salad,2
+O639,beef,3
+O640,chicken breast,4
+O641,potatoes,5
+O642,beans,7
+O643,legumes,6
+O644,soups,8
+O645,cottage cheese,9
+O646,avocados,1
+O647,apple cider vinegar,2
+O648,green tea,3
+O649,nuts,4
+O650,whole grains,5
+O651,chilli pepper,7
+O652,grape fruit,6
+O653,chia seeds,8
+O654,yogurt,9
+O655,whole eggs,1
+O656,leafy greens,2
+O657,salmon,3
+O658,vegetable salad,4
+O659,beef,5
+O660,chicken breast,7
+O661,potatoes,6
+O662,beans,8
+O663,legumes,9
+O664,soups,1
+O665,cottage cheese,2
+O666,avocados,3
+O667,apple cider vinegar,4
+O668,green tea,5
+O669,nuts,7
+O670,whole grains,6
+O671,chilli pepper,8
+O672,grape fruit,9
+O673,chia seeds,1
+O674,yogurt,2
+O675,whole eggs,3
+O676,leafy greens,4
+O677,salmon,5
+O678,vegetable salad,7
+O679,beef,6
+O680,chicken breast,8
+O681,potatoes,9
+O682,beans,1
+O683,legumes,2
+O684,soups,3
+O685,cottage cheese,4
+O686,avocados,5
+O687,apple cider vinegar,7
+O688,green tea,6
+O689,nuts,8
+O690,whole grains,9
+O691,chilli pepper,1
+O692,grape fruit,2
+O693,chia seeds,3
+O694,yogurt,4
+O695,whole eggs,5
+O696,leafy greens,7
+O697,salmon,6
+O698,vegetable salad,8
+O699,beef,9
+O700,chicken breast,1
+O701,potatoes,9
+O702,beans,1
+O703,legumes,2
+O704,soups,3
+O705,cottage cheese,4
+O706,avocados,5
+O707,apple cider vinegar,7
+O708,green tea,6
+O709,nuts,8
+O710,whole grains,9
+O711,chilli pepper,1
+O712,grape fruit,2
+O713,chia seeds,3
+O714,yogurt,4
+O715,whole eggs,5
+O716,leafy greens,7
+O717,salmon,6
+O718,vegetable salad,8
+O719,beef,9
+O720,chicken breast,1
+O721,potatoes,9
+O722,beans,1
+O723,legumes,2
+O724,whole eggs,3
+O725,leafy greens,4
+O726,salmon,5
+O727,vegetable salad,7
+O728,beef,6
+O729,chicken breast,8
+O730,potatoes,9
+O731,beans,1
+O732,legumes,2
+O733,soups,3
+O734,cottage cheese,4
+O735,avocados,5
+O736,apple cider vinegar,7
+O737,green tea,6
+O738,nuts,8
+O739,whole grains,9
+O740,chilli pepper,1
+O741,grape fruit,9
+O742,chia seeds,1
+O743,yogurt,2
+O744,whole eggs,3
+O745,leafy greens,4
+O746,salmon,5
+O747,vegetable salad,7
+O748,beef,6
+O749,chicken breast,8
+O750,potatoes,9
+O751,beans,1
+O752,legumes,2
+O753,soups,3
+O754,cottage cheese,4
+O755,avocados,5
+O756,apple cider vinegar,7
+O757,green tea,6
+O758,nuts,8
+O759,whole grains,9
+O760,chilli pepper,1
+O761,grape fruit,9
+O762,chia seeds,1
+O763,yogurt,2
+O764,whole eggs,3
+O765,leafy greens,4
+O766,salmon,5
+O767,vegetable salad,7
+O768,beef,6
+O769,chicken breast,8
+O770,potatoes,9
+O771,beans,1
+O772,legumes,2
+O773,soups,3
+O774,cottage cheese,4
+O775,avocados,5
+O776,apple cider vinegar,7
+O777,green tea,6
+O778,nuts,8
+O779,whole grains,9
+O780,chilli pepper,1
+O781,grape fruit,9
+O782,chia seeds,1
+O783,yogurt,2
+O784,whole eggs,3
+O785,leafy greens,4
+O786,salmon,5
+O787,vegetable salad,7
+O788,beef,6
+O789,chicken breast,8
+O790,potatoes,9
+O791,beans,1
+O792,legumes,2
+O793,soups,3
+O794,cottage cheese,4
+O795,avocados,5
+O796,apple cider vinegar,7
+O797,green tea,6
+O798,nuts,8
+O799,whole grains,9
+O800,chilli pepper,1
+O801,grape fruit,9
+O802,chia seeds,1
+O803,yogurt,2
+O804,whole eggs,3
+O805,leafy greens,4
+O806,salmon,5
+O807,vegetable salad,7
+O808,beef,6
+O809,chicken breast,8
+O810,potatoes,9
+O811,beans,1
+O812,legumes,2
+O813,whole eggs,3
+O814,leafy greens,4
+O815,salmon,5
+O816,vegetable salad,7
+O817,beef,6
+O818,chicken breast,8
+O819,potatoes,9
+O820,beans,1
+O821,legumes,9
+O822,soups,1
+O823,cottage cheese,2
+O824,avocados,3
+O825,apple cider vinegar,4
+O826,green tea,5
+O827,nuts,7
+O828,whole grains,6
+O829,chilli pepper,8
+O830,grape fruit,9
+O831,chia seeds,1
+O832,yogurt,2
+O833,whole eggs,3
+O834,leafy greens,4
+O835,salmon,5
+O836,vegetable salad,7
+O837,beef,6
+O838,chicken breast,8
+O839,potatoes,9
+O840,beans,1
+O841,legumes,9
+O842,soups,1
+O843,cottage cheese,2
+O844,avocados,3
+O845,apple cider vinegar,4
+O846,green tea,5
+O847,nuts,7
+O848,whole grains,6
+O849,chilli pepper,8
+O850,grape fruit,9
+O851,chia seeds,1
+O852,yogurt,2
+O853,whole eggs,3
+O854,leafy greens,4
+O855,salmon,5
+O856,vegetable salad,7
+O857,beef,6
+O858,chicken breast,8
+O859,potatoes,9
+O860,beans,1
+O861,legumes,9
+O862,soups,1
+O863,cottage cheese,2
+O864,avocados,3
+O865,apple cider vinegar,4
+O866,green tea,5
+O867,nuts,7
+O868,whole grains,6
+O869,chilli pepper,8
+O870,grape fruit,9
+O871,chia seeds,1
+O872,yogurt,2
+O873,whole eggs,3
+O874,leafy greens,4
+O875,salmon,5
+O876,vegetable salad,7
+O877,beef,6
+O878,chicken breast,8
+O879,potatoes,9
+O880,beans,1
+O881,legumes,9
+O882,soups,1
+O883,cottage cheese,2
+O884,avocados,3
+O885,apple cider vinegar,4
+O886,green tea,5
+O887,nuts,7
+O888,whole grains,6
+O889,chilli pepper,8
+O890,grape fruit,9
+O891,chia seeds,1
+O892,yogurt,2
+O893,whole eggs,3
+O894,leafy greens,4
+O895,salmon,5
+O896,vegetable salad,7
+O897,beef,6
+O898,chicken breast,8
+O899,potatoes,9

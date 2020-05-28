@@ -1,0 +1,22 @@
+restaurantid,restaurantname,openinghours,phonenumber,streetname,unitno,city,state,zipcode
+r12345,stay healthy,8 am  9 pm,5516882337,beacon sstreet,1,boston,massachussets,111234
+r12346,qdoba,6 am  9pm,3509635332,greensberry street,10,hampshire,new hampshire,111235
+r12347,chipotle,9 am  9 pm,2365289305,roxbury street,11,maine,maine,111236
+r12348,energize,7 am  10 pm,5957311809,hilary street,12,miami,florida,111237
+r12349,live life,10 am  10 pm,2425159853,rock street,131,clemson,south carolina,111238
+r12350,organic café,10 am  7 pm,4057868661,park street,12,boston,massachussets,111239
+r12351,pho basil,8 am  9 pm,9754334486,national street,12,hampshire,new hampshire,111240
+r12352,jugos,6 am  9pm,7768199769,hilton street,12,maine,maine,111241
+r12353,b. good,9 am  9 pm,7978393582,beacon sstreet,333,miami,florida,111242
+r12354,mighty food,7 am  10 pm,3772023234,greensberry street,45,clemson,south carolina,111243
+r12355,honey grow,10 am  10 pm,3435380668,roxbury street,55,boston,massachussets,111244
+r12356,ginger exchange,10 am  7 pm,2738042186,hilary street,5,hampshire,new hampshire,111245
+r12357,The q,8 am  9 pm,4746792578,rock street,67,maine,maine,111246
+r12358,black seed café,6 am  9pm,8043019086,park street,78,miami,florida,111247
+r12359,neptune oyster,9 am  9 pm,6983423750,national street,66,clemson,south carolina,111248
+r12360,legal sea foods,7 am  10 pm,3829292594,hilton street,55,boston,massachussets,111249
+r12361,mumbai spice,10 am  10 pm,4962482451,beacon sstreet,55,hampshire,new hampshire,111250
+r12362,mela,10 am  7 pm,3643269927,greensberry street,44,maine,maine,111251
+r12363,nakshatra,8 am  9 pm,9958597944,roxbury street,55,miami,florida,111252
+r12364,indian spice,6 am  9pm,2147485630,hilary street,66,clemson,south carolina,111253
+r12365,italian spice,9 am  9 pm,6807880121,rock street,77,boston,massachussets,111254
